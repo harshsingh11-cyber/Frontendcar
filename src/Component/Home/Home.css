@@ -1,0 +1,104 @@
+#link {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(240, 235, 235);
+    font-weight: 500;
+
+}
+
+#newo {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(245, 237, 237);
+    font-weight: 500;
+}
+
+
+.main_con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_con {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.car__details {
+    width: 50%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    border: 1px solid black;
+}
+
+th {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+td {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+.teble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(99, 41, 150);
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid #918383;
+  outline: none;
+  padding: 10px 15px;
+  color: #000;
+}
+input:hover {
+    border-color: #ccc;
+  }
+  
+input:focus {
+    border-color: #9900ff;
+  }
+
+  .btn{
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d3adec;
+    color: #000;
+}
